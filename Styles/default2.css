@@ -30,7 +30,6 @@ main {
 }
 
 footer {
-    background-color: green;
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -52,20 +51,20 @@ main p {
     font-size: 18px;
 }
 
-a {
+nav a {
+    text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
-
-
-
-}
-nav a {
-    text-decoration: none;
 }
 
 footer a {
     text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
