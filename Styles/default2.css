@@ -10,8 +10,9 @@ body {
 
 
 header {
-    height: 118px;
     text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 
@@ -25,6 +26,7 @@ nav {
 main {
     height: 400px;
     padding-top: 0px;
+    padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -35,36 +37,68 @@ footer {
     padding-bottom: 14px;
 }
 
-h1 {
+header h1 {
     color: red;
     font-style: normal;
     font-size: 50px;
+}
+
+main h1 {
+    color: red;
+    font-style: normal;
+    font-size: 25px;
+}
+
+main li {
+    font-size: 18px;
+    color: red;
+    font-style: normal;
+
+}
+
+main dd {
+    font-size: 18px;
+    color: red;
+    font-style: normal;
+
 }
 
 p {
     color: red;
     font-style: normal;
-    font-size: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main p {
     font-size: 18px;
+    color: red;
+    font-style: normal;
+    
 }
 
-nav a {
-    text-decoration: none;
+a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
+
+}
+nav a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
 
 footer a {
-    text-decoration: none;
     color: red;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
 }
