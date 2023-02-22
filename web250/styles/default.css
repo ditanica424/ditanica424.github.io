@@ -28,7 +28,7 @@ figcaption {
 }
 
 main {
-    height: 750px;
+    height: auto;
     text-align: center;
     padding-left: 240px;
     padding-right: 240px;
