@@ -1,17 +1,50 @@
-h1{
-    color: gold;
-    font-size: 100px;
-    font-family: cursive;
-    
+/* controls the background*/
+html {
+    background-color: rgba(0, 0, 0, 0.132);
 }
 
-h2{
-    font-size: 50px;
+/*Changes header, nav, main and footer all at once*/
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width: 1024px;
+}
+
+header {
+    background-color: yellow;
+    height: 150px
+}
+
+header h1 {
     font-style: italic;
-    color: red;
+    font-size: 80px;
+    font-family: fantasy;
+    text-align: center;
 }
 
-p{
-    color: red;
-    background-color: rgba(0, 0, 0, 0.182);
+header h2{
+    font-style: normal;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+nav {
+    background-color: blueviolet;
+    height: 75px;
+}
+
+main {
+    background-color: blue;
+    height: 400px;
+    text-align: left;
+}
+
+footer {
+    background-color: red;
+    height: 75px;
+    text-align: center;
+    
 }
