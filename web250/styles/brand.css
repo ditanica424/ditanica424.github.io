@@ -29,8 +29,8 @@ figcaption {
 main {
     height: auto;
     text-align: center;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 footer {
@@ -51,10 +51,19 @@ main h1 {
     font-size: 25px;
 }
 
+main p {
+    color: red;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
 ul {
     color: red;
     font-style: normal;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 0px;
     padding-right: 0px;
@@ -65,7 +74,7 @@ ul {
 dl {
     color: red;
     font-style: normal;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 0px;
     padding-right: 0px;
