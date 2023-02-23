@@ -1,41 +1,83 @@
-/* controls the background*/
-html {
-    background-color: rgba(0, 0, 0, 0.132);
+body {
+    background-color: pink;
 }
 
-/*Changes header, nav, main and footer all at once*/
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
-    width: 1090px;
+    width: 1024px;
 }
 
+
 header {
-    background-color: yellow;
+    height: 100px;
+    text-align: center;
+}
+
+nav {
+    background-color: orangered;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+figcaption {
+    color: red;
+    font-style: italic;
+}
+
+main {
     height: auto;
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 header h1 {
-    font-style: italic;
-    font-size: 80px;
-    font-family: fantasy;
-    text-align: center;
-}
-
-header h2{
+    color: red;
     font-style: normal;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    font-size: 50px;
 }
 
+main h1 {
+    color: red;
+    font-style: normal;
+    font-size: 25px;
+}
 
-nav {
-    background-color: blueviolet;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    text-align: center;
+ul {
+    color: red;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    
+}
+
+dl {
+    color: red;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left; 
+}
+
+p {
+    color: red;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -46,18 +88,15 @@ nav a {
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
+
+   
 }
 
-main {
-    background-color: blue;
-    height: auto;
-    text-align: left;
-    font-size: 30px;
-}
-
-footer {
-    background-color: red;
-    height: auto;
-    text-align: center;
-    
+footer a {
+    text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
