@@ -45,13 +45,13 @@ main {
     padding-left: 150px;
     padding-right: 150px;
 }
-
+/*
 .box1{
-    background-color: pink;
+    background-color: red;
     width: auto;
     height: auto;
 }
-
+*/
 footer {
     text-align: center;
     padding-top: 14px;
@@ -65,13 +65,13 @@ header h2 {
 }
 
 main h1 {
-    color: red;
+    color: gold;
     font-style: normal;
     font-size: 25px;
 }
 
 main p {
-    color: red;
+    color: gold;
     font-style: normal;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +80,7 @@ main p {
 }
 
 ul {
-    color: red;
+    color: gold;
     font-style: normal;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -91,7 +91,7 @@ ul {
 }
 
 dl {
-    color: red;
+    color: gold;
     font-style: normal;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -111,7 +111,7 @@ p {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: gold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-left: 10px;
