@@ -84,8 +84,8 @@ ul {
     font-style: normal;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: left;
     
 }
@@ -122,7 +122,7 @@ nav a {
 
 footer a {
     text-decoration: none;
-    color: red;
+    color:darkred;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-left: 10px;
