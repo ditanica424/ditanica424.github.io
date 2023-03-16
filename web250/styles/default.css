@@ -1,4 +1,3 @@
-
 body {
     background-color: black;
     background-image: url("/web250/images/Background.jpg");
@@ -16,7 +15,7 @@ body {
 
 
 .box1 {
-    background-color: rgba(0, 0, 0, 0.797);
+    background-color: rgba(0, 0, 0, 0.463);
     width: 1090px;
     height: auto;
     margin: auto;
@@ -24,6 +23,7 @@ body {
     padding-bottom: 20px;
     margin-top: 10px;
 }
+
 
 header {
     height: 100px;
@@ -63,10 +63,10 @@ main a{
     color: red;
 }
 
-main h1 {
+main h2 {
     color: red;
     font-style: normal;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 figcaption {
