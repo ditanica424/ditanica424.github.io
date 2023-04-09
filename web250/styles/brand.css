@@ -11,6 +11,7 @@ body {
     font-style: normal;
     font-size: 20px;
     color: red;
+    margin-bottom: 20px;
 }
 
 .box2 {
@@ -22,6 +23,11 @@ body {
     padding-bottom: 20px;
 
 }
+
+.box1 h1{
+    font-size: 55px;
+}
+
 
 header {
     height: 100px;
@@ -61,7 +67,7 @@ nav a {
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 
@@ -69,6 +75,7 @@ main {
     height: auto;
     text-align: center;
     padding: 0 150px;
+    margin-bottom: 20px;
 }
 
 main h1 {
