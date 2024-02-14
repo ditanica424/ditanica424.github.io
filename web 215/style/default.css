@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    background-image: url("/web250/images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1099px;
+}
+*/
+
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.463);
+    width: 1090px;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+header {
+    height: 100px;
+    text-align: center;
+}
+
+header h1 {
+    color: red;
+    font-style: normal;
+    font-size: 50px;
+}
+
+nav {
+    background-color: #730507;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main {
+    height: auto;
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+main a{
+    color: red;
+}
+
+main h2 {
+    color: red;
+    font-style: normal;
+    font-size: 35px;
+}
+
+figcaption {
+    color: red;
+    font-style: italic;
+}
+
+ul {
+    color: gold;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+dl {
+    color: gold;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left; 
+}
+
+p {
+    color: gold;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+footer p{
+    color: red;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
