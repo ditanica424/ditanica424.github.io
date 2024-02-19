@@ -119,3 +119,42 @@ footer a {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+form {
+    font-size: 1.5em;
+}
+
+label,
+input {
+    display: flex;
+    padding: .125em;
+}
+
+#courseInputsContainer {
+    margin-left: 7.4em;
+}
+
+#formContainer input {
+    display: block;
+    margin-bottom: .3em;
+}
+
+input {
+    padding: 0;
+    font-size: .8em;
+    box-sizing: content-box;
+}
+
+#formOutput #resetButton {
+    margin-top: 20em;
+}
+
+#formOutput li {
+    font-family: garamond;
+}
+
+#resetButton {
+    margin-bottom: 1em;
+}
+

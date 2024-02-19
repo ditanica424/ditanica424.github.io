@@ -1,121 +1,95 @@
-body {
-    background-color: gray;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB215 &#9670; Ditanica Farley's Dynamic Falcon &#9670; Introduction</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <div class="container">
 
-/*
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1099px;
-}
-*/
+        <header>
+           <h1>WEB215 Ditanica Farley's Dynamic Falcon</h1>
+        </header>
+    
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="introduction.html">INTRODUCTION</a>
+            <a href="contract.html">CONTRACT</a>
+            <a href="brand.html">BRAND</a>
+            <a href="introduction_form.html">INTRODUCTION FORM</a>
 
+        </nav>
 
-.box1 {
-    background-color: rgba(0, 0, 0, 0.463);
-    width: 1090px;
-    height: auto;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-}
+        <main>
+            <h2>Introduction Form</h2>
 
+            <form>
+                <div id="formContainer">
 
-header {
-    height: 100px;
-    text-align: center;
-}
+                    <label for="picture">Upload Picture:
+                        <input type="file" id="picture" name="images/family - Copy.jfif">
+                    </label>
 
-header h1 {
-    color: red;
-    font-style: normal;
-    font-size: 50px;
-}
+                    <label for="First Name">First Name:
+                        <input type="text" id="First Name" name="First Name" value="Ditanica">
+                    </label>
 
-nav {
-    background-color:red;
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
+                    <label for="Last Name">Last Name:
+                        <input type="text" id="Last Name" name="Last Name" value="Farley">
+                    </label>
 
-nav a {
-    text-decoration: none;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+                    <label for="Personal Background">Personal Background:
+                        <input type="text" id="Personal Background" name="Personal Background" value="I Grew up in Georgia. I moved to North Carolina in 2018 due to a promotion. I have a 19 year old daughter who is attending UNCC and a beautiful Rot/Chow mixed doggie!">
+                    </label>
 
-main {
-    height: auto;
-    text-align: center;
-    padding-left: 240px;
-    padding-right: 240px;
-}
+                    <label for="Professional Background">Professional Background:
+                        <input type="text" id="Professional Background" name="Professional Background" value="I have been in retail for 10 years. I was a Jewelry consultant prior to 2021. I am now a branch manager and I'm hoping to obtain a postion as a Software Engineer for the bank by the end of this year.">
+                    </label>
 
-main a{
-    color: red;
-}
+                    <label for="Academic Background">Academic Background:
+                        <input type="text" id="Academic Background" name="Academic Background" value="Working on my AAS in full stack programming.">
+                    </label>
 
-main h2 {
-    color: red;
-    font-style: normal;
-    font-size: 35px;
-}
+                    <label for="Background in this Subject">Background in this Subject:
+                        <input type="text" id="Background in this Subject" name="Background in this Subject" value="I have always had a passion for technology, However I recently got into the programming side of it. I have taken courses for Python, Java, SQL, HTML, CSS and Javascript.">
+                    </label>
 
-figcaption {
-    color: red;
-    font-style: italic;
-}
+                    <label for="Primary Computer Platform">Primary Computer Platform:
+                        <input type="text" id="Primary Computer Platform" name="Primary Computer Platform" value="Windows 10">
+                    </label>
 
-ul {
-    color: yellow;
-    font-style: normal;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding-bottom: 10px;
-}
+                    <label for="Courses I'm in & Why">Courses I'm in & Why:
+                        <input type="text" id="Courses I'm in & Why" name="Courses I'm in & Why" value="WEB215 - Adv Markup and Scripting
+                        CSC251 - Advanced JAVA programming
+                        Both courses are required for my degree.">
+                    </label>
 
-dl {
-    color: yellow;
-    font-style: normal;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 0px;
-    padding-right: 0px;
-    text-align: left; 
-}
+                    <label for="Funny/Interesting Item about Yourself">Funny/Interesting Item about Yourself:
+                        <input type="text" id="Funny/Interesting Item about Yourself" name="Funny/Interesting Item about Yourself" value="I love designing, creating, and decorating.">
+                    </label>
 
-p {
-    color: yellow;
-    text-align: center;
-    font-style: normal;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+                    <label for="I'd also like to Share">I'd also like to Share:
+                        <input type="text" id="I'd also like to Share" name="I'd also like to Share" value="I am also a graphic designer.">
+                    </label>
 
-footer {
-    background-color:red;
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
+                    <input type="submit" id="submitButton" name="submitButton" value="Submit">
 
-footer p{
-    color: yellow;
-}
+                </div>
 
-footer a {
-    text-decoration: none;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+                <div id="pictureContainer">
+                    <figure>
+                        <figcaption id="figure_captionOutput"></figcaption>
+                    </figure>
+                </div>
+
+                <ul id="formOutput"></ul>
+                <input type="reset" id="resetButton" name="resetButton" value="Reset">
+
+            </form>
+        </main>
+    </div>    
+</body>
+</html>
