@@ -1,17 +1,8 @@
 body {
-    background-color: gray;
+    background-color: rgba(30,115,190);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/*
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1099px;
-}
-*/
-
 
 .box1 {
     background-color: rgba(0, 0, 0, 0.463);
@@ -30,13 +21,13 @@ header {
 }
 
 header h1 {
-    color: red;
+    color: rgba(89, 187, 213);
     font-style: normal;
     font-size: 50px;
 }
 
 nav {
-    background-color:red;
+    background-color: rgba(89, 187, 213) ;
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -59,17 +50,17 @@ main {
 }
 
 main a{
-    color: red;
+    color: yellow;
 }
 
 main h2 {
-    color: red;
+    color: yellow;
     font-style: normal;
     font-size: 35px;
 }
 
 figcaption {
-    color: red;
+    color: yellow;
     font-style: italic;
 }
 
@@ -101,7 +92,7 @@ p {
 }
 
 footer {
-    background-color:red;
+    background-color:rgba(89, 187, 213);
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -131,30 +122,4 @@ input {
     padding: .125em;
 }
 
-#courseInputsContainer {
-    margin-left: 7.4em;
-}
-
-#formContainer input {
-    display: block;
-    margin-bottom: .3em;
-}
-
-input {
-    padding: 0;
-    font-size: .8em;
-    box-sizing: content-box;
-}
-
-#formOutput #resetButton {
-    margin-top: 20em;
-}
-
-#formOutput li {
-    font-family: garamond;
-}
-
-#resetButton {
-    margin-bottom: 1em;
-}
 

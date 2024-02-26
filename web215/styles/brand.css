@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEB215 &#9670; Ditanica Farley's Dynamic Falcon &#9670; Dinamic Travels - Brand Guide</title>
+    <title>WEB215 &#9670; Ditanica Farley's Dynamic Falcon &#9670; Introduction</title>
     <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
-    <div class="box2">
+    <div class="container">
 
         <header>
-            <h1>WEB215 Ditanica Farley's Dynamic Falcon</h1>
+           <h1>WEB215 Ditanica Farley's Dynamic Falcon</h1>
         </header>
     
         <nav>
@@ -20,81 +20,76 @@
             <a href="contract.html">CONTRACT</a>
             <a href="brand.html">BRAND</a>
             <a href="introduction_form.html">INTRODUCTION FORM</a>
+
         </nav>
-        
+
         <main>
-            <div class="box1">
-                <h1>Dinamic Travels</h1>
-                <h2>Brand Guide</h2>
-            </div>
+            <h2>Introduction Form</h2>
 
-       
-            <h1><b>Tag Line</b></h1>
-            <p>YOUR TRAVEL GUIDE TO THE WORLD!</p>
+            <form>
+                <div id="formContainer">
 
-            <h1><b>Business Concept</b></h1>
+                    <label for="picture">Upload Picture:
+                        <input type="file" id="picture" name="images/family - Copy.jfif">
+                    </label>
 
-            <p>Dinamic Travels is a full-service travel agency that specializes in international travel.  We offer a wide array of services to cater to our client’s needs.</p>
-            <p>Our services include:</p>
+                    <label for="First Name">First Name:
+                        <input type="text" id="First Name" name="First Name" value="Ditanica">
+                    </label>
 
-            <ul>
-                <li>Custom itineraries</li>
-                <li>All-inclusive or adult-only options</li>
-                <li>Ocean and river cruising</li>
-                <li>International and domestic flights</li>
-                <li>Hotel and car reservation</li>
-                <li>Luxury travel experiences</li>
-                <li>Escorted tours and group travel</li>
-                <li>Experiences and tickets</li>
-                <li>Safaris and adventure sports experiences</li>
-                <li>Travel insurance</li>
-                <li>and, A destination specialist who is by your side every step of the way.</li>
-            </ul>
+                    <label for="Last Name">Last Name:
+                        <input type="text" id="Last Name" name="Last Name" value="Farley">
+                    </label>
 
-            <p>What sets us apart is our unwavering dedication to customer satisfaction. We take the time to listen to your unique needs and desires, carefully crafting personalized travel experiences that exceed your expectations. Our team of experienced destination specialist are well-versed in destinations around the globe, and they will go the extra mile to ensure that every aspect of your trip is meticulously planned and flawlessly executed.</p>
+                    <label for="Personal Background">Personal Background:
+                        <input type="text" id="Personal Background" name="Personal Background" value="I Grew up in Georgia. I moved to North Carolina in 2018 due to a promotion. I have a 19 year old daughter who is attending UNCC and a beautiful Rot/Chow mixed doggie!">
+                    </label>
 
-            <h1><b>Mission Statement</b></h1>
+                    <label for="Professional Background">Professional Background:
+                        <input type="text" id="Professional Background" name="Professional Background" value="I have been in retail for 10 years. I was a Jewelry consultant prior to 2021. I am now a branch manager and I'm hoping to obtain a postion as a Software Engineer for the bank by the end of this year.">
+                    </label>
 
-            <p>At Dinamic Travels, we believe that every journey is an opportunity to create unforgettable memories. With our passion for travel and commitment to exceptional service, we strive to provide you with the best possible travel experiences.</p>
+                    <label for="Academic Background">Academic Background:
+                        <input type="text" id="Academic Background" name="Academic Background" value="Working on my AAS in full stack programming.">
+                    </label>
 
-            <h1><b>Color Scheme</b></h1>
+                    <label for="Background in this Subject">Background in this Subject:
+                        <input type="text" id="Background in this Subject" name="Background in this Subject" value="I have always had a passion for technology, However I recently got into the programming side of it. I have taken courses for Python, Java, SQL, HTML, CSS and Javascript.">
+                    </label>
 
-            <ul>
-                <li> Red</li>
-                <li> White</li>
-                <li> Yellow</li>
-                <li> Gray</li>
-            </ul>
+                    <label for="Primary Computer Platform">Primary Computer Platform:
+                        <input type="text" id="Primary Computer Platform" name="Primary Computer Platform" value="Windows 10">
+                    </label>
 
-            <h1><b>Typography</b></h1>
+                    <label for="Courses I'm in & Why">Courses I'm in & Why:
+                        <input type="text" id="Courses I'm in & Why" name="Courses I'm in & Why" value="WEB215 - Adv Markup and Scripting
+                        CSC251 - Advanced JAVA programming
+                        Both courses are required for my degree.">
+                    </label>
 
-            <ul>
+                    <label for="Funny/Interesting Item about Yourself">Funny/Interesting Item about Yourself:
+                        <input type="text" id="Funny/Interesting Item about Yourself" name="Funny/Interesting Item about Yourself" value="I love designing, creating, and decorating.">
+                    </label>
 
-                <li>Company Name/Logo: Lucida Calligraphy Itallic & Allura Regular</li>
-                <li>Bell MT</li>
-            </ul>
-        
+                    <label for="I'd also like to Share">I'd also like to Share:
+                        <input type="text" id="I'd also like to Share" name="I'd also like to Share" value="I am also a graphic designer.">
+                    </label>
+
+                    <input type="submit" id="submitButton" name="submitButton" value="Submit">
+
+                </div>
+
+                <div id="pictureContainer">
+                    <figure>
+                        <figcaption id="figure_captionOutput"></figcaption>
+                    </figure>
+                </div>
+
+                <ul id="formOutput"></ul>
+                <input type="reset" id="resetButton" name="resetButton" value="Reset">
+
+            </form>
         </main>
-
-        <footer>
-            <a href="https://github.com/ditanica424" target="_blank">GITHUB.COM</a>
-            <a href="https://ditanica424.github.io" target="_blank">GITHUB.IO</a>
-            <a href="https://ditanica424.github.io/web215/index.html" target="_blank">COURSE.IO</a>
-            <a href="https://www.freecodecamp.org/D_laquise" target="_blank">FREECODECAMP</a>
-            <a href="https://www.codecademy.com/profiles/D_Laquise" target="_blank">CODECADEMY</a>
-            <a href="https://www.linkedin.com/in/ditanica-farley-64a898262/" target="_blank">LINKEDIN</a> 
-            <a href="https://www.w3profile.com/Di" target="_blank">W3SCHOOLS</a>
-
-            <p>Designed &copy; Dinamic Travels</p>
-            
-            <figure>
-                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fditanica424.github.io%2Fweb215%2Fbrand.html" target="_blank">
-                <img src="images/validation_button_html - Copy.png" alt = "html validator" height = "31" width = "88" style = "border: 0px;"></a>
-
-                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fditanica424.github.io%2Fweb215%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">
-                <img src="images/validation_button_css - Copy.gif" alt = "css validator" height = "31" width = "88" style = "border: 0px;"></a>
-            </figure>
-        </footer>
-    </div>   
+    </div>    
 </body>
 </html>
