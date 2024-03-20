@@ -3,9 +3,10 @@ body {
     background-color: rgba(30,115,190);
     background-repeat: no-repeat;
     background-size: cover;
+    color: yellow;
 }
 
-/* Black box behind the paragraphs*/
+/* Black box behind the paragraphs
 .box1 {
     background-color: rgba(0, 0, 0, 0.463);
     width: 1090px;
@@ -15,7 +16,7 @@ body {
     padding-bottom: 20px;
     margin-top: 10px;
 }
-
+*/
 /* Page Top Header*/
 header {
     height: 100px;
@@ -27,7 +28,7 @@ header {
 
 /*Sets the nav section background color and centers text*/
 nav {
-    background-color: rgba(89, 187, 213) ;
+    background-color: rgba(0, 0, 0, 0.463) ;
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -52,23 +53,25 @@ main {
 
 /* formats the page h2 headers */
 main h2 {
-    color: yellow;
+
     text-align: center;
     font-style: normal;
     font-size: 35px;
 }
 
+/* formats the image */
 figure{
     text-align: center;
 }
 
-
+/* formats the caption under the image */
 figcaption {
-    color: yellow;
+    
     font-style: italic;
     text-align: center;
 }
 
+/* formats the bullets*/
 ul {
     color: yellow;
     font-style: normal;
@@ -78,16 +81,8 @@ ul {
     padding-bottom: 10px;
 }
 
-dl {
-    color: yellow;
-    font-style: normal;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 0px;
-    padding-right: 0px;
-    text-align: left; 
-}
 
+/*formats the pararaph fonts, color and size*/
 p {
     color: yellow;
     font-style: normal;
@@ -103,7 +98,7 @@ h1{
 
 /*Sets the nav section background color and centers text*/
 footer {
-    background-color:rgba(89, 187, 213);
+    background-color:rgba(0, 0, 0, 0.463);
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
