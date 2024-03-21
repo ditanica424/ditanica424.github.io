@@ -16,6 +16,11 @@ body {
     margin-top: 10px;
 }
 
+.box1 a{
+    padding: 0;
+    text-decoration: underline;
+}
+
 /* Page Top Header*/
 header {
     height: 100px;
