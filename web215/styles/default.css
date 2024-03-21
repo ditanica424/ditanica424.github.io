@@ -114,9 +114,17 @@ form {
     font-size: 1.5em;
 }
 
-label,
-input {
+label {
     display: flex;
     padding: .125em;
     color: yellow;
 }
+
+input {
+    border: none;
+    border-bottom: 2px solid white;
+    display: flex;
+    padding: .125em;
+    color: black;
+}
+
