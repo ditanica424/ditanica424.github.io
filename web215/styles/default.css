@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: yellow;
-
+}
 
  /*Blue box behind the paragraphs*/
 .box1 {
@@ -91,7 +91,6 @@ p {
 h1{
     color: yellow;
 }
-
 
 /*Sets the nav section background color and centers text*/
 footer {
