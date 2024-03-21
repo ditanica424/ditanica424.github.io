@@ -4,19 +4,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: yellow;
-}
 
-/* Black box behind the paragraphs
+
+ /*Blue box behind the paragraphs*/
 .box1 {
     background-color: rgba(0, 0, 0, 0.463);
     width: 1090px;
     height: auto;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 10px 20px;
     margin-top: 10px;
 }
-*/
+
 /* Page Top Header*/
 header {
     height: 100px;
@@ -53,7 +52,6 @@ main {
 
 /* formats the page h2 headers */
 main h2 {
-
     text-align: center;
     font-style: normal;
     font-size: 35px;
@@ -66,7 +64,6 @@ figure{
 
 /* formats the caption under the image */
 figcaption {
-    
     font-style: italic;
     text-align: center;
 }
@@ -98,7 +95,6 @@ h1{
 
 /*Sets the nav section background color and centers text*/
 footer {
-    background-color:rgba(0, 0, 0, 0.463);
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -114,5 +110,3 @@ input {
     padding: .125em;
     color: yellow;
 }
-
-
