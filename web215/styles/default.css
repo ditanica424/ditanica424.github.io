@@ -1,12 +1,27 @@
-/*Sets the page background to light blue */
 body {
     background-color: rgba(30,115,190);
     background-repeat: no-repeat;
     background-size: cover;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
     color: yellow;
 }
 
- /*Blue box behind the paragraphs*/
+
+header {
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+main {
+    height: auto;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
 .box1 {
     background-color: rgba(0, 0, 0, 0.463);
     width: 1090px;
@@ -21,16 +36,7 @@ body {
     text-decoration: underline;
 }
 
-/* Page Top Header*/
-header {
-    height: 100px;
-    text-align: center;
-    color: rgba(89, 187, 213);
-    font-style: normal;
-    font-size: 25px;
-}
 
-/*Sets the nav section background color and centers text*/
 nav {
     background-color: rgba(0, 0, 0, 0.463) ;
     text-align: center;
@@ -38,72 +44,60 @@ nav {
     padding-bottom: 14px;
 }
 
-/*formats the text in the nav and footer section*/
+
  a {
     text-decoration: none;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    color: yellow
 }
 
-/* formats the main section */
-main {
-    height: auto;
-    padding-left: 240px;
-    padding-right: 240px;
+a:hover {
+    color: red;
 }
 
-/* formats the page h2 headers */
-main h2 {
+h2 {
     text-align: center;
-    font-style: normal;
+    font-family: Lucida sans;
     font-size: 35px;
 }
 
 h3 {
     text-align: center;
-    font-style: normal;
     font-size: 20px;
 }
 
-/* formats the image */
+hr {
+    height: 5px;
+    background-color: Yellow;
+}
+
+
 figure{
     text-align: center;
 }
 
-/* formats the caption under the image */
+
 figcaption {
     font-style: italic;
     text-align: center;
 }
 
-/* formats the bullets*/
+
 ul {
-    color: yellow;
-    font-style: normal;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     padding-bottom: 10px;
 }
 
 
-/*formats the pararaph fonts, color and size*/
+
 p {
-    color: yellow;
-    font-style: normal;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-h1{
-    color: yellow;
-}
-
-/*Sets the nav section background color and centers text*/
 footer {
     text-align: center;
     padding-top: 14px;
