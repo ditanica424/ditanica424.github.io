@@ -14,11 +14,16 @@
     <p>Designed by Ditanica Farley &copy; 2024</p>
     
     <figure>
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fditanica424.github.io%2Fweb215%2Fbrand.html" target="_blank">
+        <a href="http://validator.w3.org/check?uri=referer" id = "validation_link_html">" target="_blank">
         <img src="images/validation_button_html.png" alt = "html validator" height = "31" width = "88" style = "border: 0px;"></a>
 
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fditanica424.github.io%2Fweb215%2Fbrand.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id = "validation_link_css"> target="_blank">
         <img src="images/validation_button_css.gif" alt = "css validator" height = "31" width = "88" style = "border: 0px;"></a>
+
+        <script>
+            document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
     </figure>
 </footer>
 
