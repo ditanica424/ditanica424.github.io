@@ -1,0 +1,88 @@
+/* *****grid layouts***** */
+
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;/* *****relative Positioning***** */
+  }
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.aboutme-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+
+/*Responsive using @media*/
+@media screen and (max-width: 980px) {
+    article {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .entersite {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    nav,  a {
+        display: block;
+        margin-right: 10px;      
+    }      
+}
+
+@media screen and (max-width: 760px) {
+    article, article.family-pic {
+        display: block;
+        margin: 0 20px;
+    }
+
+    #date {
+        display: none;
+    } 
+
+    nav,  a {
+        display: block;
+        margin-right: 10px;    
+    }
+
+    #pythoncert {
+       display: block;
+        width: 400px;
+        height: 400px;
+        margin-left:75px;
+      }
+}
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
