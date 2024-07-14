@@ -1,0 +1,318 @@
+main {
+  background-color: white;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 50px;
+}
+
+div.desc {
+  text-align: center;
+  font-size: 25px;
+}
+
+/*  -----HEADER & NAV----- */
+header {
+  background-color:rgba(0, 0, 0, 0.142);
+  height:30px;
+}
+
+#date {
+padding-top: 5px;
+text-align: right;
+font-size: 18px;
+}
+
+a {
+  color: Black ; 
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Pseudo Class */
+a:link {
+  color: Black;
+}
+
+/* Pseudo Class */
+a:hover {
+  color:red;
+}
+
+.active {
+color: red;
+}
+
+.aboutme {
+  background-image: url(/images/Allaboutme.jpg);
+  background-color: gray;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+}
+
+.education {
+  background-image: url(/images/Education.jpg);
+  background-color: gray;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+}
+
+.portfolio {
+  background-image: url(/images/Myportfolio.jpg);
+  background-color: gray;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+}
+
+.contactme {
+  background-image: url(/images/Contactme.jpg);
+  background-color: gray;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+}
+
+
+/* -----HOME PAGE----- */
+.home-image{
+  max-width: 100%;
+  height: 100%;
+}
+
+
+.entersite {
+  position: absolute;/* absolute Positioning */
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+} 
+
+.entersite:hover {
+  border: 2px solid black;
+}
+
+button {
+  font-size: 50px;
+  justify-content: center;
+  border: none;
+}
+
+/*  -----ABOUT ME-----  */
+.family-pic {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: centered;
+  
+}
+
+/* format list */
+ul {
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+}
+
+/*  -----EDUCATION-----  */
+.Education-container {
+  margin: auto;
+  width: auto;
+  display: flow-root; /* overflow */
+  margin-top: 30px;
+  margin-bottom: 30px;
+ 
+}
+
+#pythoncert {
+  float: right; /* float */
+  max-width: 45%;
+  margin: 50px;
+  box-shadow: 10px 10px gray;
+}
+
+.education-txt {
+  padding-top: 100px;
+  margin-left: 30px;
+}
+
+/*  -----PORTFOLIO-----  */
+article img {
+  width: 100%;
+  border: 9px;
+  border-radius: 8px;
+}
+
+.logos img {
+  width: 100%;
+  border: 9px;
+  border-radius: 8px;
+}
+
+article p, article h3 {
+  margin: 20px 10px;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-type {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 100px;
+}
+
+
+/*  -----CONTACT-----  */
+/* Form Section */
+* {
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f
+} 
+
+input[type=text], select, datalist, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: block;
+}
+
+input[type=submit] {
+  background-color:black;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+input[type=reset] {
+  background-color: white;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+
+/* Focus pseudo class to format valid and invalid selected boxes */
+input:required:focus:invalid {
+background-color: rgb(255, 0, 0);
+}
+
+
+/* -----FOOTER SECTION----- */
+footer {
+  background-color: black;
+  height: auto;
+  color: white;
+  text-align: center;
+ 
+}
+
+footer h1 {
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+footer p {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer a:link {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+} 
+
+hr {
+  height: 0px;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: Black;
+}
+
+.fa-instagram {
+  background: black;
+}
