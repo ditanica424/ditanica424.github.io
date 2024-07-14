@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ditanica Farley</title>
+    <!--Set metadata of the document -->
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to CSS file(s) -->
+    <link href="css/grid.css"  rel="stylesheet" />
+    <link href="css/default1.css"  rel="stylesheet" />
+    
+</head>
+
+<body><!--Sectioning-->
+
+    <header>
+        <p id="date"></p>
+        <script>
+        const currentdate  = new Date();
+        document.getElementById("date").innerHTML = currentdate ;
+        </script>  
+    </header>
+
+    <nav class="contactme"><!--nav list with hypertext links -->
+        <a href="home.html"><strong>HOME</strong></a> 
+        <a href="aboutme.html"><strong>ABOUT ME</strong></a>
+        <a href="education.html"><strong>EDUCATION</strong></a>
+        <a href="portfolio.html"><strong>PORTFOLIO</strong></a>
+        <a href="contactme.html"><strong>CONTACT</strong></a> 
+    </nav>
+
+    <h2>Inquiry Form</h2>
+    <p>Pleae complete the inquriry form.  I will reach out to you as soon as possible</p>
+    
+    <div class="container">
+      <form action="/practiceform.html" >
+        <fieldset>
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your First name.." required>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-25">
+              <label for="email">Email address</label>
+            </div>
+            <div class="col-75"><!--Inputmode Email-->  
+              <input type="text" inputmode="email" id="email" name="email" placeholder="Your email address.." required>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-25">
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="col-75">
+        <!--Validate date with Pattern--> 
+        <!--Inputmode numeric-->         
+              <input type="text" inputmode="numeric" id="phone" name="phone" placeholder="format 555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+          </div>
+        </fieldset>
+    
+    <!--Selection List-->
+        <fieldset><!--Field set-->
+        <div class="row">
+          <div class="col-25">
+            <label for="contact-method">Preferred contact method: </label>
+          </div>
+          <div class="col-75">
+            <select id="contact-method" name="contact-method">
+                <option value="">(select one)</option>
+                <option value="1">Phone</option>
+                <option value="2">Email</option>
+                <option value="4">Video Conference</option>
+            </select>
+          </div>
+        </div>
+        </fieldset>
+    
+    <!--Date & Time-->
+        <fieldset><!--Field set-->
+        <div class="row">
+          <div class="col-25">
+            <label for="contact-method">Preferred contact time: </label>
+          </div>
+          <div class="col-75">
+            <!--Input Type: Date & Time-->
+            <input type="datetime-local" id="date1" name="date">
+          </div>
+        </div>
+        </fieldset>
+    
+    <!--Radio Button-->
+        <fieldset><!--Field set-->
+        <div class="row">
+          <div class="col-25">
+            <label for="service-type">Do you need person or business services: </label>
+          </div>
+          <div class="col-75">
+            <!--Input Type: Date & Time-->
+            <label for="service-type"><input class="inline"  id="personal" type="radio" name="service-type" checked>Personal</label>
+            <label for="service-type"><input class="inline" id="Email" type="radio" name="service-type">Business</label>
+          </div>
+        </div>
+        </fieldset>   
+        
+    <!--Datalist List-->
+    <fieldset><!--Field set-->
+        <div class="row">
+          <div class="col-25">
+            <label for="browser">What browser do you use?</label>
+          </div>
+          <div class="col-75">
+            <input name="browser" list="browsers" id="browser">
+            <datalist id="browsers">
+                <option value="(select one)"></option>
+                <option value="Edge"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Safari"></option>   
+            </datalist>
+          </div>
+        </div>
+        </fieldset>
+    
+    <!--Check Boxes-->
+        <fieldset><!--Field set-->
+        <div class="row">
+          <div class="col-25">
+            <label for="service-type">What type of services do you need: </label>
+          </div>
+          <div class="col-75">
+            <label for="services"><input class="inline"  id="logo" type="checkbox" name="services" checked> Logo Only</label>
+            <label for="services"><input class="inline"  id="Web Design" type="checkbox" name="services"> Web Design Only</label>
+            <label for="services"><input class="inline"  id="Web Development" type="checkbox" name="services"> Web Development Only</label>
+            <label for="services"><input class="inline" id="business-suite" type="checkbox" name="services"> Business Suite (Includes Logo, Web Design, and Web Development</label>
+          </div>
+        </div>
+        </fieldset> 
+    
+    <!--Create & Format a textarea-->
+        <fieldset>
+        <div class="row">
+          <div class="col-25">
+            <label for="project">Project Information</label>
+          </div>
+          <div class="col-75">
+            <textarea id="project" rows="3" cols="30" maxlength="250" placeholder="What is your vision for your project?" required></textarea>
+    
+            <label for="documents">
+                <input id="documents" type="file" name="document" > Upload documets
+            </label> 
+          </div>
+        </div>
+        </fieldset>
+        
+    <!--Submit & cancel/reset button-->
+        <div class="row">
+            <input type="submit" value="Submit" onclick="submitForm()" />
+            <input type="reset" value="Reset">
+        </div>
+      </form>
+    </div>
+    
+    </body>
+    </html>
