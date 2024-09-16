@@ -1,0 +1,30 @@
+/*Responsive using @media*/
+@media screen and (max-width: 980px) {
+    .headline {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .tagline {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .entersite {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+}
