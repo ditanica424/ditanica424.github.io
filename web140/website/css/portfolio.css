@@ -1,0 +1,38 @@
+.home-image{
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .entersite {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  } 
+  
+  .entersite:hover {
+    border: 2px solid black;
+  }
+  
+  button {
+    font-size: 50px;
+    justify-content: center;
+    border: none;
+  }
+
+  .headline {
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }  
+
+  .tagline {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+  } 
